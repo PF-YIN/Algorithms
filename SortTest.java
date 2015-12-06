@@ -137,7 +137,7 @@ public class SortTest{
       k=j;
     }
   }
-  //堆排序专用比较交换方法
+  //堆排序专用比较交换方法,因为堆是从1开始的。
   private static boolean less1(Comparable[] a,int i,int j){
     return a[i-1].compareTo(a[j-1])<0;
   }
